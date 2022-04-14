@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300mm" height="600px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 16256 10837"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#65CEA6;stroke-width:100}
+    .str0 {stroke:#65CEA6;stroke-width:250}
+    .str2 {stroke:#65CEA6;stroke-width:7.62}
+    .fil0 {fill:none}
+    .fil1 {fill:#65CEA6}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M11418 7459c-2,-218 -2,-547 3,-808 5,-261 16,-455 34,-590 19,-135 44,-213 80,-282 36,-69 82,-131 135,-181 52,-50 110,-89 167,-118 56,-28 111,-47 193,-62 83,-14 193,-25 364,-32 171,-7 403,-10 653,-10 250,0 517,3 697,8 180,6 272,15 346,28 75,13 131,30 194,61 62,30 130,74 183,118 52,44 88,89 121,147 33,58 63,131 83,204 20,73 30,146 36,451 7,305 10,842 8,1151 -2,309 -9,390 -22,465 -13,75 -32,144 -50,196 -19,52 -37,88 -60,123 -22,35 -50,71 -82,104 -31,32 -67,62 -106,88 -40,26 -83,48 -130,66 -48,19 -100,34 -177,47 -76,13 -178,24 -506,27 -327,3 -880,-2 -1186,-9 -305,-8 -363,-18 -421,-35 -57,-16 -115,-38 -180,-79 -64,-41 -135,-100 -190,-167 -55,-68 -93,-143 -120,-224 -27,-82 -42,-168 -51,-265 -9,-97 -13,-204 -16,-422z"/>
+  <circle class="fil1 str1" cx="13962" cy="6258" r="153"/>
+  <g id="_2693340862224">
+   <path class="fil1 str2" d="M13996 7101c-1,9 -2,17 -4,26 -67,490 -519,833 -1009,766 -489,-68 -833,-520 -765,-1010 67,-489 519,-832 1009,-765 8,1 17,2 25,4 -452,-49 -865,271 -927,725 -63,462 261,888 723,952 453,62 873,-249 948,-698z"/>
+   <polygon class="fil1 str2" points="13140,6394 13107,7157 13174,7157 "/>
+   <polygon class="fil1 str2" points="13140,6382 13174,6435 13107,6435 "/>
+   <polygon class="fil1 str2" points="13632,7139 13120,7172 13120,7105 "/>
+   <polygon class="fil1 str2" points="13662,7139 13609,7172 13609,7105 "/>
+   <path class="fil1 str2" d="M13140 7088c29,0 52,23 52,51 0,29 -23,52 -52,52 -28,0 -51,-23 -51,-52 0,-28 23,-51 51,-51z"/>
+  </g>
+ </g>
+</svg>
