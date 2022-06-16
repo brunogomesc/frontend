@@ -61,6 +61,7 @@ export default {
             showDetailsLegendScheduleModal: false,
             showDetailsFileScheduleModal: false,
             saveLegend: '',
+            noExibition: false,
             saveFileName: [],
         }
     },
@@ -70,6 +71,7 @@ export default {
                 return true;
             }
             else {
+                this.onViewCreateSchedule();
                 return false;
             }
         },
@@ -78,6 +80,9 @@ export default {
         },
     },
     methods: {
+        onViewCreateSchedule() {
+            this.noExibition = true;
+        },
         onShowRegisterScheduleModal() {
             this.showRegisterScheduleModal = true;
         },

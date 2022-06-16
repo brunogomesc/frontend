@@ -7,7 +7,7 @@
                         @click="onNetworkClick(network.id)"
                         :class="{ 'active': isActiveNetwork(network.id) }"
                   >
-                        <component :is="network.icon" />
+                        <component :is="network.id" />
                   </li>
             </ul>
             <div class="network-bar--no-info" v-if="hasNoNetwork">
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import instagram from '../assets/icons/instagram.svg'
+import Instagram from '../assets/icons/instagram.svg'
 import facebook from '../assets/icons/facebook.svg'
 import twitter from '../assets/icons/twitter.svg'
 import Modal from './Modal.vue'
@@ -49,7 +49,7 @@ export default {
             }
       },
       components: {
-            instagram,
+            Instagram,
             facebook,
             twitter,
             Modal,

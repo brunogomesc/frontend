@@ -181,7 +181,7 @@ export default {
                         axios.get(`${this.urlAPI()}/auth`).then( response => {
                               this.usersLogin = response.data;
                               for (let index = 0; index < this.usersLogin.length; index++) {
-                                    if(this.usersLogin[index]['user_login'] == user && this.usersLogin[index]['password_login'] == pass && this.usersLogin[index]['ativo'] == 1) {
+                                    if(this.usersLogin[index]['user_login'] == user && this.usersLogin[index]['password_login'] == pass && this.usersLogin[index]['ativo'] == true) {
                                           this.userValidate = true;
                                           this.userAutenticate = this.usersLogin[index]
                                           this.addUserAutenticate();
@@ -197,8 +197,8 @@ export default {
                         })
                  }
             },
-            addUserAutenticate() {
-                  this.$store.dispatch('saveUserAutenticate', this.userAutenticate)
+            async addUserAutenticate() {
+                  await this.$store.dispatch('saveUserAutenticate', this.userAutenticate)
                   //this.saveNetworkSaved();
             },
             createdAccount() {
@@ -234,7 +234,7 @@ export default {
                         });
                   }
             },
-            saveNetworkSaved() {
+            async saveNetworkSaved() {
                   return new Promise (()=>{
                         axios.get(`${this.urlAPI()}/auth/social_network_save`, { params:{
                               'id_login': this.userAutenticate['id_login'],

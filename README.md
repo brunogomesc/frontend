@@ -1,4 +1,4 @@
-# view-post-hora
+# front-end
 
 ## Project setup
 ```

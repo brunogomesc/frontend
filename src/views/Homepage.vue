@@ -1,7 +1,6 @@
 <template>
       <div class="homepage">
             <FunctionsMenu/>
-            <NetworkBar/>
             <Modal :show="showAutenticateSucessModal" @on-modal-close="hideSuccessModal">
                   <div class="autenticate-modal">
                         <span v-html="successIcon" class="icon"></span>
@@ -11,6 +10,7 @@
             <ModalCreateSchedule :show="showCreateSchedulesModal"/>
             <ModalViewSchedule :show="showViewSchedulesModal"/>
             <ModalViewNetwork :show="showViewNetworkModal"/>
+            <NetworkBar/>
             <Options/>
       </div>
 </template>
@@ -25,6 +25,7 @@ import ModalCreateSchedule from '../components/ModalCreateSchedules.vue'
 import ModalViewSchedule from '../components/ModalViewSchedules.vue'
 import ModalViewNetwork from '../components/ModalViewNetwork.vue'
 export default {
+      name: "Homepage",
       data() {
             return {
                   showAutenticateSucessModal: true,

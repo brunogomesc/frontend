@@ -15,8 +15,9 @@
 import Logo from '../assets/icons/LogoPostAtTime.svg'
 import FormLogin from '../components/FormLogin.vue'
 import Loading from '../components/Loading.vue'
+
 export default {
-      name: 'Login',
+      name: "Login",
       components: {
             FormLogin,
             Loading,
@@ -25,8 +26,10 @@ export default {
       data() {
             return {
                   isLoading: false,
+                  isPrimary: true  
             }
-      }
+      },
+
 }
 </script>
 
